@@ -23,6 +23,7 @@ namespace Task_1
                     Console.Write("Введите целое число. Y = ");
                     y = Convert.ToInt32(Console.ReadLine());
                 }
+
                 catch (FormatException)
                 {
                     Console.Write("Ошибка! Входная строка имела неверный формат.");
