@@ -74,7 +74,7 @@ namespace Task_1
 
                 catch (OverflowException)
                 {
-                    Console.Write("Ошибка: число слишком большое или слишком маленькое");
+                    Console.Write("Ошибка: число слишком большое или слишком маленькое.");
                     return;
                 }
 
